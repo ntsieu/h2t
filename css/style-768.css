@@ -1,0 +1,19 @@
+[class*="grid"] {
+  display: inline;
+  float: left;
+  margin-left: 1%;
+}
+
+.grid-first {
+  margin-left: 0;
+}
+
+.grid-30 {
+  width: 30%;
+}
+
+/* Clearfix -- h5bp.com/q 
+-------------------------------- */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
